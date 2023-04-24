@@ -1,0 +1,6 @@
+﻿/* Listing 1-6. Supporting a New Color Format in All Browsers Using CSS */
+
+.container {
+    background-color: #000;
+    background-color: rgba(0,0,0, 0.9);
+}

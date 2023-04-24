@@ -1,0 +1,11 @@
+﻿/* Reusable Variable for Color */
+
+$site-color:#eee;
+a {
+    color: $site-color;
+}
+
+#topBar {
+    background-color: $site-color;
+    color: #fff;
+}

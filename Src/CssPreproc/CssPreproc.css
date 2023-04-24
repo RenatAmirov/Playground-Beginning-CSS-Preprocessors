@@ -1,0 +1,12 @@
+﻿body {
+}
+
+$site-color:#eee;
+a {
+    color: $site-color;
+}
+
+#topBar {
+    background-color: $site-color;
+    color: #fff;
+}

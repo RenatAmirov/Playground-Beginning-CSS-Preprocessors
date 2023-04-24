@@ -1,0 +1,14 @@
+﻿/* Creating and Using a Reusable Code Block in the Preprocessor */
+
+@mixin containerSettings {
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+p {
+    @include containerSettings;
+}
+
+footer {
+    @include containerSettings;
+}
