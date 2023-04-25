@@ -1,0 +1,13 @@
+﻿// Listing 4-54. Use of the Parent Selector to Build a Clear Fix
+
+.clearfix() {
+    &:after {
+        clear: both;
+    }
+}
+
+.column {
+    .clearfix;
+}
+
+

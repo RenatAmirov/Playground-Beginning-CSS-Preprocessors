@@ -1,0 +1,10 @@
+﻿// Listing 4-46. Example Demonstrating Use of Comparison Operator
+//     in Mixin Guard
+
+@mediaType: mobile;
+
+.setScreen (@width) when (@mediaType = mobile) {}
+
+.setScreen (@width) when (@mediaType = desktop) {}
+
+

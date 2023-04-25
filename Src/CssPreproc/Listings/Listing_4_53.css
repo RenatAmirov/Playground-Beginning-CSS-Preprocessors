@@ -1,0 +1,9 @@
+﻿/* Listing 4-53. Output of Listing 4-52 */
+
+.button {
+    background: #F00;
+}
+
+.button:hover {
+    background: #500;
+}

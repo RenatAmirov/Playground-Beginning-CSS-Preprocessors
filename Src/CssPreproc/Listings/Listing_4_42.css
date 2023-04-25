@@ -1,0 +1,14 @@
+﻿/* Listing 4-42. Output of Listing 4-41 */
+
+#sidebar .heading {
+    font-weight: bold;
+    color: #BBB;
+}
+
+#sidebar ul {
+    list-style: none;
+}
+
+    #sidebar ul li a {
+        color: #006;
+    }

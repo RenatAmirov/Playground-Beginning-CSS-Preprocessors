@@ -1,0 +1,17 @@
+﻿// Listing 4-44. Example Demonstrating Mixin Guards
+
+.switchContrast (@color) when (lightness(@color) >= 60%) {
+    background-color: #000;
+}
+
+.switchContrast (@color) when (lightness(@color) < 60%) {
+    background-color: #FFF;
+}
+
+.switchContrast (@color) {
+    color: @color;
+}
+
+.container {
+    .switchContrast(#666);
+}

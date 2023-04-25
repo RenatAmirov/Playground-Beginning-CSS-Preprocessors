@@ -1,0 +1,5 @@
+﻿/* Listing 4-55. Output of Listing 4-54 */
+
+.column:after {
+    clear: both;
+}
