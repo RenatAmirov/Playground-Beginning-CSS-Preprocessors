@@ -1,0 +1,18 @@
+﻿// Listing 4-28. Implementation of !important with Mixin
+
+.notification() {
+    border-radius: 5px;
+    padding: 5px;
+
+    .inner {
+        border: 2px solid #fff;
+    }
+}
+
+.errorLooks {
+    .notification;
+}
+
+.successLooks {
+    .notification .inner !important;
+}

@@ -1,0 +1,14 @@
+﻿/* Listing 4-29. Output of Listing 4-28 */
+
+.errorLooks {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.errorLooks .inner {
+    border: 2px solid #fff;
+}
+
+.successLooks {
+    border: 2px solid #fff !important;
+}

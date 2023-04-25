@@ -1,0 +1,21 @@
+﻿// Listing 4-34. Example Showing Mixin Overloading
+
+.specialArea(@color; @width) {
+    border: 2px dashed @color;
+    width: @width;
+    color: @color;
+}
+
+.specialArea(@color;) {
+    color: @color;
+}
+
+.fullEmphasis {
+    background-color: #BBB;
+    .specialArea(#FFF);
+}
+
+.sideEmphasis {
+    background-color: #BBB;
+    .specialArea(#FFF,200px)
+}

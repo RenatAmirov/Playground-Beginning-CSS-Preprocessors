@@ -1,0 +1,9 @@
+﻿/* Listing 4-37. Output of Listing 4-36 */
+
+.subsection {
+    border: 1px solid #000;
+}
+
+.impInlineContent {
+    border: 2px dashed #f00;
+}

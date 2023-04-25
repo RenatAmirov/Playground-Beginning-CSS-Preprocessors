@@ -1,0 +1,19 @@
+﻿// Listing 4-32. Example Demonstrating Default Values 
+//    for Parameters of a Mixin
+
+.roundedEdges (@radius: 5px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -o-border-radius: @radius;
+    border-radius: @radius
+}
+
+info {
+    font-weight: bold;
+    .roundedEdges(50px);
+}
+
+.note {
+    font-style: italic;
+    .roundedEdges();
+}

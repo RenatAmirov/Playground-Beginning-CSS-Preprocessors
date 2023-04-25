@@ -1,0 +1,9 @@
+﻿/* Listing 4-31. Output of Listing 4-30 */
+
+.info {
+    font-weight: bold;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 10px;
+}

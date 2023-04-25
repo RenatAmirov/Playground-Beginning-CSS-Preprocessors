@@ -1,0 +1,13 @@
+﻿// Listing 4-30. Example Demonstrating Parameterized Mixins
+
+.roundedEdges (@radius) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -o-border-radius: @radius;
+    border-radius: @radius
+}
+
+.info {
+    font-weight: bold;
+    .roundedEdges(50px)
+}

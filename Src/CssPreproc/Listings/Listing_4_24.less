@@ -1,0 +1,18 @@
+﻿// Listing 4-24. Example Demonstrating How to Include Selectors Inside a Mixin Definition
+
+.notification() {
+    border-radius: 5px;
+    padding: 5px;
+
+    &:hover {
+        border: 2px solid #fff;
+    }
+}
+
+.errorLooks {
+    .notification;
+}
+
+.successLooks {
+    .notification;
+}

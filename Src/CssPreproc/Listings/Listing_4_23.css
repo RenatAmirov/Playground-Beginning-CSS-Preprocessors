@@ -1,0 +1,17 @@
+﻿/* Listing 4-23. Output of Listing 4-22 */
+
+.notification,
+#notification {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.errorLooks {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.successLooks {
+    border-radius: 5px;
+    padding: 5px;
+}

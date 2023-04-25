@@ -1,0 +1,17 @@
+﻿// Listing 4-39. Example Demonstrating Returning a Value
+
+.setPaddingMarginMixin() {
+    @padding: 15px;
+    @margin: 30px;
+}
+
+.modifiedPMMixin() {
+    @margin: 25px;
+    padding: @padding;
+    margin: @margin;
+    .setPaddingMarginMixin();
+}
+
+.container {
+    .modifiedPMMixin();
+}

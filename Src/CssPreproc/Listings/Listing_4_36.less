@@ -1,0 +1,13 @@
+﻿// Listing 4-36. Example Demonstrating the Use of @arguments
+
+.borderAroundElement(@width: 1px; @style: solid; @color: #000) {
+    border: @arguments;
+}
+
+.subsection {
+    .borderAroundElement();
+}
+
+.impInlineContent {
+    .borderAroundElement(2px;dashed;#f00);
+}

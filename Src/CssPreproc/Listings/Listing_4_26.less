@@ -1,0 +1,18 @@
+﻿// Listing 4-26. Using a Selector Inside a Mixin Inside Another Selector
+
+.notification() {
+    border-radius: 5px;
+    padding: 5px;
+
+    .inner {
+        border: 2px solid #fff;
+    }
+}
+
+.errorLooks {
+    .notification;
+}
+
+.successLooks {
+    .notification .inner;
+}

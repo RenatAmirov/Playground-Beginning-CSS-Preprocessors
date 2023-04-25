@@ -1,0 +1,19 @@
+﻿/* Listing 4-25. Output of Listing 4-24 */
+
+.errorLooks {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.errorLooks:hover {
+    border: 2px solid #fff;
+}
+
+.successLooks {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.successLooks:hover {
+    border: 2px solid #fff;
+}

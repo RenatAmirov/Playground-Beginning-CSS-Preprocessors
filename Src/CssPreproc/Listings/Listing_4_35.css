@@ -1,0 +1,13 @@
+﻿/* Listing 4-35. Output of Listing 4-34 */
+
+.fullEmphasis {
+    background-color: #BBB;
+    color: #FFF;
+}
+
+.sideEmphasis {
+    background-color: #BBB;
+    border: 2px dashed #ffffff;
+    width: 200px;
+    color: #FFF;
+}

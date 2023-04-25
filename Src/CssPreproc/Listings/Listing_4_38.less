@@ -1,0 +1,10 @@
+﻿// Listing 4-38. Example Demonstrating the Use of @rest
+
+.borderAroundElement(@width: 10px; @rest...) {
+    width: @width;
+    border: @rest;
+}
+
+.subsection {
+    .borderAroundElement(100px;1px solid #666);
+}

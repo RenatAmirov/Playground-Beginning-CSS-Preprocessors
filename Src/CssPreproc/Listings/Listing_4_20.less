@@ -1,0 +1,14 @@
+﻿// Listing 4-20. Example of Mixins in Less
+
+.notification(@value: 5px) {
+    border-radius: @value;
+    padding: @value;
+}
+
+.errorLooks {
+    .notification;
+}
+
+.successLooks {
+    .notification(10px);
+}
