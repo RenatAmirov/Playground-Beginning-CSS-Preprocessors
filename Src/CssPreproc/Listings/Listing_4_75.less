@@ -1,0 +1,16 @@
+﻿// Listing 4-75. Example Demonstrating 
+//     the Various Color Blending Functions
+
+@primaryColor: #00A;
+@secondaryColor: #0A0;
+@tertiaryColor: #AAA;
+
+.heading {
+    color: multiply(@primaryColor,@tertiaryColor);
+    color: screen(@primaryColor,@secondaryColor);
+    color: overlay(@primaryColor,@tertiaryColor);
+    color: softlight(@secondaryColor,@tertiaryColor);
+    color: hardlight(@primaryColor,@tertiaryColor);
+    color: difference(@primaryColor,@secondaryColor);
+    color: average(@primaryColor,@secondaryColor);
+}

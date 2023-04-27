@@ -1,0 +1,21 @@
+﻿// Listing 4-85. Example Demonstrating the default() Function with Guard
+
+.font(1) {
+    font-size: 11px;
+}
+
+.font(5) {
+    font-size: 26px;
+}
+
+.font(@size) when (default()) {
+    font-size: ~"@{size}px";
+}
+
+.header {
+    .font(5);
+}
+
+.content {
+    .font(12);
+}

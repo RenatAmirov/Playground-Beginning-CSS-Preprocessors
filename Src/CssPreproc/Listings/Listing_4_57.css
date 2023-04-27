@@ -1,0 +1,10 @@
+﻿/* Listing 4-57. Output of Listing 4-56 */
+
+.primary,
+.secondary {
+    color: #00F;
+}
+
+.primary:hover {
+    color: #006;
+}

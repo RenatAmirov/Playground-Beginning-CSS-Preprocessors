@@ -1,0 +1,11 @@
+﻿// Listing 4-64. Example Demonstrating Color Manipulation in Less
+
+@color: yellow;
+
+.lighten(@color) {
+    color: @color - 10%;
+}
+
+.contrastContainer {
+    .lighten(@color)
+}

@@ -98,6 +98,16 @@
     <Content Include="Listings\Listing_4_45.css" />
     <Content Include="Listings\Listing_4_53.css" />
     <Content Include="Listings\Listing_4_55.css" />
+    <Content Include="Listings\Listing_4_57.css" />
+    <Content Include="Listings\Listing_4_59.css" />
+    <Content Include="Listings\Listing_4_63.css" />
+    <Content Include="Listings\Listing_4_65.css" />
+    <Content Include="Listings\Listing_4_67.css" />
+    <Content Include="Listings\Listing_4_69.css" />
+    <Content Include="Listings\Listing_4_71.css" />
+    <Content Include="Listings\Listing_4_74.css" />
+    <Content Include="Listings\Listing_4_76.css" />
+    <Content Include="Listings\Listing_4_86.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -134,6 +144,27 @@
     <Content Include="Listings\Listing_4_51.less" />
     <Content Include="Listings\Listing_4_52.less" />
     <Content Include="Listings\Listing_4_54.less" />
+    <Content Include="Listings\Listing_4_56.less" />
+    <Content Include="Listings\Listing_4_58.less" />
+    <Content Include="Listings\Listing_4_60.less" />
+    <Content Include="Listings\Listing_4_61.less" />
+    <Content Include="Listings\Listing_4_62.less" />
+    <Content Include="Listings\Listing_4_64.less" />
+    <Content Include="Listings\Listing_4_66.less" />
+    <Content Include="Listings\Listing_4_68.less" />
+    <Content Include="Listings\Listing_4_70.less" />
+    <Content Include="Listings\Listing_4_72.less" />
+    <Content Include="Listings\Listing_4_73.less" />
+    <Content Include="Listings\Listing_4_75.less" />
+    <Content Include="Listings\Listing_4_77.less" />
+    <Content Include="Listings\Listing_4_78.less" />
+    <Content Include="Listings\Listing_4_79.less" />
+    <Content Include="Listings\Listing_4_80.less" />
+    <Content Include="Listings\Listing_4_81.less" />
+    <Content Include="Listings\Listing_4_82.less" />
+    <Content Include="Listings\Listing_4_83.less" />
+    <Content Include="Listings\Listing_4_84.less" />
+    <Content Include="Listings\Listing_4_85.less" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

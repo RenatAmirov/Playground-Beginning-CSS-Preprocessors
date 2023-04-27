@@ -1,0 +1,11 @@
+﻿// Listing 4-68. Example Demonstrating Recurrsive Behavior of Mixins
+
+.generateGridLayout(12);
+
+.generateGridLayout(@n, @i: 1) when (@i =< @n) {
+    .col-@{i} {
+        width: (@i * 100% / @n);
+    }
+
+    .generateGridLayout(@n, (@i + 1));
+}

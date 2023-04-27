@@ -1,0 +1,12 @@
+﻿// Listing 4-56. Example Demonstrating the extend Pseudo-Class
+
+.primary {
+    color: #00F;
+
+    &:hover {
+        color: #006;
+    }
+}
+
+.secondary:extend(.primary) {
+}

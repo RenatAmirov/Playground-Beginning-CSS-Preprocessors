@@ -1,0 +1,14 @@
+﻿// Listing 4-66. Example Demonstrating Merging Comma-Separated Values
+
+.fallbackFonts() {
+    font-family+: Helvetica,sans-serif;
+}
+
+.fontSettings() {
+    font-family+: Calibri;
+    .fallbackFonts;
+}
+
+body {
+    .fontSettings;
+}

@@ -1,0 +1,16 @@
+﻿// Listing 4-70. Example Demonstrating the Use of List Functions
+
+@socials: "twitter", "facebook", "gplus";
+
+.generateSocialIcons(@i) when (@i > 0) {
+    .generateSocialIcons((@i - 1));
+    @socialName: e(extract(@socials, @i));
+
+    li.@{socialName} {
+        width: 16px;
+        height: 16px;
+        background-image: url("@{socialName}.png");
+    }
+}
+
+.generateSocialIcons(length(@socials));

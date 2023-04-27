@@ -1,0 +1,20 @@
+﻿// Listing 4-58. Example of a Guard with the Parent Selector
+
+.colorGenerator(@level) {
+
+    & when (@level > 5) {
+        color: #600;
+    }
+
+    & when (@level <= 5) {
+        color: #060;
+    }
+}
+
+p.lead {
+    .colorGenerator(6);
+}
+
+p.secondLead {
+    .colorGenerator(1);
+}

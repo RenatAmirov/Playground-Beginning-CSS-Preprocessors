@@ -1,0 +1,8 @@
+﻿// Listing 4-61. Adding a Detached Ruleset 
+//     Within Another Style Declaration
+
+@errorStyleSettings: { color: #A00; border: 1px solid #A00; };
+
+.errorDialog {
+    @errorStyleSettings();
+}

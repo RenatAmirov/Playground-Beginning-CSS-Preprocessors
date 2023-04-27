@@ -1,0 +1,19 @@
+﻿/* Listing 4-71. Output of Listing 4-70 */
+
+li.twitter {
+    width: 16px;
+    height: 16px;
+    background-image: url("twitter.png");
+}
+
+li.facebook {
+    width: 16px;
+    height: 16px;
+    background-image: url("facebook.png");
+}
+
+li.gplus {
+    width: 16px;
+    height: 16px;
+    background-image: url("gplus.png");
+}

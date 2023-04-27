@@ -1,0 +1,16 @@
+﻿// Listing 4-73. Example Demonstrating the lighten and darken Functions
+
+@primaryColor: #00A;
+@secondaryColor: #0A0;
+
+.heading {
+    color: lighten(@primaryColor,20%);
+}
+
+.impNotice {
+    color: darken(@primaryColor,35%);
+}
+
+.successfulEvent {
+    color: lighten(@secondaryColor,10%);
+}
